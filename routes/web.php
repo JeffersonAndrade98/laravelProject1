@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/cadastro', function(){
     return view('cadastro/cadastro');
 });
+
+Route::post('/cadastrar')
